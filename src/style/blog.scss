@@ -2,6 +2,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+
+    .new-blog-link {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        margin-bottom: 50px;
+
+        a {
+            font-size: 3em;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: seagreen;
+            margin-right: 60px;
+            transition: 0.5s ease-in-out;
+
+            &:hover {
+                color: darkgreen;
+            }
+        }
+    }
 
     .content-container {
         display: flex;
