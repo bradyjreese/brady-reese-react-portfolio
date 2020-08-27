@@ -86,19 +86,19 @@ export default class PortfolioForm extends Component {
 
     handleThumbDrop() {
         return {
-            addedfile: file => this.setState({ thumb_image: file})
+            addedfile: file => this.setState({ thumb_image: file })
         };
     }
 
     handleBannerDrop() {
         return {
-            addedfile: file => this.setState({ banner_image: file})
+            addedfile: file => this.setState({ banner_image: file })
         };
     }
 
     handleLogoDrop() {
         return {
-            addedfile: file => this.setState({ logo: file})
+            addedfile: file => this.setState({ logo: file })
         };
     }
 
